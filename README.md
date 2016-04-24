@@ -30,7 +30,7 @@
    {<br>
 >      /**  level1  **/<br>
 
->      if(c + nghbr == 256)  <br>            
+>if(c + nghbr == 256)  <br>            
 >   {   <br>
 >>    score +=1;<br>
 >>    消失c、nghbr;<br>
