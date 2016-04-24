@@ -28,16 +28,18 @@
 
    if(c的高度<6)<br>
    {<br>
->>      //level1<br>
->>      if(c + nghbr == 256)  <br>            
->>   {   <br>
->>>>    score +=1;<br>
->>  }<br>
->>  else if(c == nghbr)<br>
->>     {<br>
->>>>        nghbr +=c;<br>
->>>>        消失c;<br>
->>     }<br>
+>      //level1<br>
+>      if(c + nghbr == 256)  <br>            
+>   {   <br>
+>>    score +=1;<br>
+>>    消失c、nghbr;<br>
+>  }<br>
+>  else if(c == nghbr)<br>
+>     {<br>
+>>        nghbr +=c;<br>
+>>        消失c;<br>
+>     }<br>
+
    }else{<br>
    game over;<br>
    }
