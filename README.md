@@ -29,6 +29,7 @@
    if(c的高度<6)<br>
    {<br>
 >      //level1<br>
+
 >      if(c + nghbr == 256)  <br>            
 >   {   <br>
 >>    score +=1;<br>
